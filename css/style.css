@@ -166,8 +166,7 @@ input {
   .header-nav-link:hover::after,
   .address-link:hover::after,
   .header-nav-link:focus::after,
-  .address-link:focus::after,
-  .header-nav-link.current::after {
+  .address-link:focus::after {
     width: 100%;
   }
   .contacts {
