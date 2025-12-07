@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- #region header -->
-    <header class="page-header">
+    <header class="page-header close">
       <div class="container header-container">
         <a class="header-logo-link" href="./index.html">
           <img
@@ -111,9 +111,72 @@
       </div>
     </header>
     <!-- #endregion header -->
+    <main>
+      <section class="gallery-section" id="gallery">
+        <div class="container">
+          <h2 class="gallery-title">Галерея зображень</h2>
+          <p class="gallery-subtitle">EcoTotes у повсякденному житті</p>
+
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <picture class="gallery-photo bag">
+                <source
+                  srcset="./images/bag-desk.jpg"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="./images/bag-tab.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img src="./images/bag-mob.jpg" alt="Опис зображення" />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture class="gallery-photo men">
+                <source
+                  srcset="./images/men-desk.jpg"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="./images/men-tab.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img src="./images/men-mob.jpg" alt="Опис зображення" />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture class="gallery-photo pererob">
+                <source
+                  srcset="./images/pererob-desk.jpg"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="./images/pererob-tab.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img src="./images/pererob-mob.jpg" alt="Опис зображення" />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture class="gallery-photo women">
+                <source
+                  srcset="./images/women-desk.jpg"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="./images/women-tab.jpg"
+                  media="(min-width: 768px)"
+                />
+                <img src="./images/women-mob.jpg" alt="Опис зображення" />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
     <!-- #region footer -->
-    <footer class="page-footer">
+    <footer class="page-footer close">
       <div class="container footer-container">
         <div class="footer-nav-container">
           <a class="footer-logo-link" href="./index.html">
